@@ -5,11 +5,11 @@
   "type": "module",
   "homepage": "https://jenkali.com/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "predeploy": "npm run build && cp CNAME build/",
-    "deploy": "gh-pages -d build"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
