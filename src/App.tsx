@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <Box>
       <Box
         sx={{
-          backgroundImage: 'url(/assets/bg1.svg)',
+          backgroundImage: 'url(/bg1.svg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

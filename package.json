@@ -2,8 +2,8 @@
   "name": "jenk_cv_portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://jenkali.com/",
   "type": "module",
-  "homepage": "https://jenkali.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
